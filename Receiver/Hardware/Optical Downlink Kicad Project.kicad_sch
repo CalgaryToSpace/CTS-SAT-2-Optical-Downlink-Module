@@ -6327,7 +6327,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 195.58) (xy 68.58 200.66)
+			(xy 68.58 196.85) (xy 68.58 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6897,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 187.96) (xy 104.14 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a11db2-0d67-47aa-be81-d935134a6171")
+	)
+	(wire
+		(pts
 			(xy 304.8 191.77) (xy 316.23 191.77)
 		)
 		(stroke
@@ -7007,7 +7017,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 187.96) (xy 104.14 187.96)
+			(xy 68.58 189.23) (xy 69.85 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7204,6 +7214,16 @@
 			(type default)
 		)
 		(uuid "caf97478-8036-4609-aa71-960f261a69f1")
+	)
+	(wire
+		(pts
+			(xy 69.85 189.23) (xy 69.85 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb087f25-966c-4c0b-81f9-489a5e80e1d2")
 	)
 	(wire
 		(pts
@@ -10398,7 +10418,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 191.77 0)
+		(at 68.58 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10407,7 +10427,7 @@
 		(fields_autoplaced yes)
 		(uuid "c125dfde-0224-4395-8ebc-e9964eb1ac5b")
 		(property "Reference" "C2"
-			(at 72.39 190.4999 0)
+			(at 72.39 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10436,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 72.39 193.0399 0)
+			(at 72.39 194.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 195.58 0)
+			(at 69.5452 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10434,7 +10454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 191.77 0)
+			(at 68.58 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +10463,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 191.77 0)
+			(at 68.58 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
