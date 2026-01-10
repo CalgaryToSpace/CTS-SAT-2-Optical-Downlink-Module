@@ -5269,6 +5269,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Note to self:\nRemember to switch out boost system for components Aaryan sent you.\nFind the symbol library stuff\n"
+		(exclude_from_sim no)
+		(at 321.818 265.43 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "7366580d-2663-4bd8-b616-002326e90153")
+	)
 	(text_box "LDO To Denoise Boost Converter Output"
 		(exclude_from_sim no)
 		(at 212.09 68.58 0)
@@ -5619,6 +5629,12 @@
 		(color 0 0 0 0)
 		(uuid "fd1582c6-8450-4ecc-9f80-2aaa69ddab2d")
 	)
+	(junction
+		(at 346.71 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd3c099d-4d2d-47a9-b55a-180a96a84521")
+	)
 	(no_connect
 		(at 245.11 114.3)
 		(uuid "0961a194-b138-4c1a-bc44-480fc08fd153")
@@ -5854,6 +5870,16 @@
 			(type default)
 		)
 		(uuid "1b6d60f6-ab53-4d0f-8e65-1b1f2cf5bc65")
+	)
+	(wire
+		(pts
+			(xy 346.71 184.15) (xy 351.79 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9d43eb-3176-4f27-83ef-e2a63c943052")
 	)
 	(wire
 		(pts
@@ -6597,6 +6623,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 175.26) (xy 346.71 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1a810e-72e3-4136-9197-9e79ef8a5d50")
+	)
+	(wire
+		(pts
 			(xy 154.94 187.96) (xy 158.75 187.96)
 		)
 		(stroke
@@ -6764,6 +6800,16 @@
 			(type default)
 		)
 		(uuid "85c6003e-89dd-4113-9f34-668bd295de82")
+	)
+	(wire
+		(pts
+			(xy 325.12 181.61) (xy 325.12 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fb1826-ff4b-45ef-b2d1-7a720fafa8ee")
 	)
 	(wire
 		(pts
@@ -7127,6 +7173,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 175.26) (xy 346.71 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc56ef4-de76-4b70-8adb-147ef0b9fa4f")
+	)
+	(wire
+		(pts
 			(xy 285.75 34.29) (xy 285.75 38.1)
 		)
 		(stroke
@@ -7134,6 +7190,16 @@
 			(type default)
 		)
 		(uuid "bdfcb22f-b0dc-4638-865f-8f49908180ae")
+	)
+	(wire
+		(pts
+			(xy 304.8 181.61) (xy 325.12 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be529e4c-0442-433c-8573-f38a472ae313")
 	)
 	(wire
 		(pts
@@ -7207,7 +7273,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 184.15) (xy 351.79 184.15)
+			(xy 337.82 184.15) (xy 346.71 184.15)
 		)
 		(stroke
 			(width 0)
