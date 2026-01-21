@@ -388,45 +388,40 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "00-symbol_library:LM2940IMPX-8.0_NOPB"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "00-symbol_library:HT7580-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LM2940IMPX-8.0/NOPB"
-				(at -0.254 13.208 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "DCY0004A_N"
-				(at 0 16.002 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/lm2940-n"
-				(at 2.032 10.922 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -440,116 +435,108 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LM2940IMPX-8.0/NOPB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DCY0004A_N DCY0004A_M DCY0004A_L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM2940IMPX-8.0_NOPB_0_1"
-				(pin power_in line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2940IMPX-8.0_NOPB_1_1"
+			(symbol "HT7580-2_1_1"
 				(rectangle
-					(start -10.16 6.35)
-					(end 10.16 -3.81)
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3785,18 +3772,6 @@
 		(uuid "20acc6d7-75a3-40bd-8a24-3b74a2d1ec93")
 	)
 	(junction
-		(at 275.59 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21933aa1-5ecf-4ff5-96c6-d63863d5b3a1")
-	)
-	(junction
-		(at 280.67 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "257fba24-72ba-4ba0-8684-c67acec53ba1")
-	)
-	(junction
 		(at 99.06 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3910,16 +3885,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 45.72) (xy 280.67 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ceb9885-e917-42a3-ad12-e6be9e3b8183")
-	)
-	(wire
-		(pts
 			(xy 284.48 96.52) (xy 290.83 96.52)
 		)
 		(stroke
@@ -3957,16 +3922,6 @@
 			(type default)
 		)
 		(uuid "1430007c-b119-4bef-bba9-e82f45318fa9")
-	)
-	(wire
-		(pts
-			(xy 236.22 38.1) (xy 245.11 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ada48b1-1cd8-44a2-819b-28af6a08810b")
 	)
 	(wire
 		(pts
@@ -4017,16 +3972,6 @@
 			(type default)
 		)
 		(uuid "2a05f841-7a0a-4976-9550-75f8119d372f")
-	)
-	(wire
-		(pts
-			(xy 236.22 39.37) (xy 236.22 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dedb4bc-6aa5-4d40-8339-ef4b59a23d6f")
 	)
 	(wire
 		(pts
@@ -4087,16 +4032,6 @@
 			(type default)
 		)
 		(uuid "3d40de8f-432f-4d48-a164-a0973c865900")
-	)
-	(wire
-		(pts
-			(xy 275.59 41.91) (xy 275.59 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41718125-1395-4e88-898d-581cd39b3b86")
 	)
 	(wire
 		(pts
@@ -4490,16 +4425,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 38.1) (xy 285.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9491f52f-f290-4ec9-863a-07e7fa7e5919")
-	)
-	(wire
-		(pts
 			(xy 101.6 175.26) (xy 101.6 182.88)
 		)
 		(stroke
@@ -4597,16 +4522,6 @@
 			(type default)
 		)
 		(uuid "a6301c79-bf07-4de0-a3e0-b6d5eb969c4b")
-	)
-	(wire
-		(pts
-			(xy 285.75 45.72) (xy 280.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0add2e-3cb1-4690-ac22-6b2463072c54")
 	)
 	(wire
 		(pts
@@ -4760,16 +4675,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 45.72) (xy 280.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88f635a-ced3-4885-bb4b-bc929be689e8")
-	)
-	(wire
-		(pts
 			(xy 139.7 134.62) (xy 139.7 143.51)
 		)
 		(stroke
@@ -4807,16 +4712,6 @@
 			(type default)
 		)
 		(uuid "ecb9f1fc-5763-4957-9128-9c958bb9c5cf")
-	)
-	(wire
-		(pts
-			(xy 236.22 46.99) (xy 236.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed034b28-c678-449f-b33e-6896a53d58df")
 	)
 	(wire
 		(pts
@@ -5428,72 +5323,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "063a448a-01ca-4ee2-b60d-a3debab436ec")
-		(property "Reference" "#PWR09"
-			(at 236.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c145d13-59cb-47d6-a4d1-e16f11758b5f")
-		)
-		(instances
-			(project ""
-				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 81.28 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5677,152 +5506,6 @@
 			(project ""
 				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 285.75 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14b286c6-e477-4ae2-93d2-6b3cd1d20535")
-		(property "Reference" "C6"
-			(at 289.56 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 289.56 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
-			(at 286.7152 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 285.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63596dd4-5b85-4933-91dc-6501891124d2")
-		)
-		(pin "2"
-			(uuid "7f9d4faa-cbc1-47af-a88a-27565f89e4fc")
-		)
-		(instances
-			(project ""
-				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00-symbol_library:LM2940IMPX-8.0_NOPB")
-		(at 260.35 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16b37126-7aa6-4b62-b914-2d1d4f26292c")
-		(property "Reference" "U6"
-			(at 260.35 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LM2940IMPX-8.0/NOPB"
-			(at 260.35 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "00-footprint-library:LM2940IMPX-8.0_NOPB DCY0004A_N"
-			(at 260.35 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lm2940-n"
-			(at 262.382 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cdf8c53c-2422-4dc7-ad86-bbeee8ab0a09")
-		)
-		(pin "4"
-			(uuid "5d6be66a-76d0-4854-878d-4a57044a68ca")
-		)
-		(pin "1"
-			(uuid "d58f3d65-2802-476a-9441-d609d06756f3")
-		)
-		(pin "3"
-			(uuid "5b37c1ba-c5a1-447c-a3cb-2ee526189519")
-		)
-		(instances
-			(project ""
-				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6561,72 +6244,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ae581b0-5ea1-45fd-b685-34ac7e29f5d9")
-		(property "Reference" "#PWR08"
-			(at 280.67 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 280.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "830cb4ed-c8f7-4998-bd06-78148b0c2ae7")
-		)
-		(instances
-			(project ""
-				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 151.13 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7044,6 +6661,83 @@
 			(project ""
 				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00-symbol_library:HT7580-2")
+		(at 260.35 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c648cd73-95c1-4e77-bc2f-0afc78738d3f")
+		(property "Reference" "U6"
+			(at 260.35 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6218b070-f472-4029-9a54-4ec08edc8b34")
+		)
+		(pin ""
+			(uuid "8cfa2df6-2b5f-4108-8cf6-3a3365b5c1d1")
+		)
+		(pin ""
+			(uuid "7b5c9a7a-b473-41bf-bb09-97b9cdf936af")
+		)
+		(pin ""
+			(uuid "1fce5634-af14-4a1e-83f7-cfcb0efd9756")
+		)
+		(pin ""
+			(uuid "7c3566d6-2372-4232-a3dc-9e414960bff5")
+		)
+		(instances
+			(project ""
+				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7481,76 +7175,6 @@
 			(project ""
 				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 236.22 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcf555c1-b57d-4987-b44b-d9dd3b54199d")
-		(property "Reference" "C5"
-			(at 240.03 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 240.03 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
-			(at 237.1852 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8bdefc99-8052-46bb-9518-0b391707122b")
-		)
-		(pin "1"
-			(uuid "f300c839-0d73-4ec1-b720-fb01b017d4a7")
-		)
-		(instances
-			(project ""
-				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
-					(reference "C5")
 					(unit 1)
 				)
 			)
