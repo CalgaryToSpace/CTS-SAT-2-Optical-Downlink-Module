@@ -3195,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 252.73 57.15 0)
 			(effects
 				(font
@@ -3831,7 +3831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:OD624L"
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -4142,7 +4142,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 149.86 133.35 0)
 			(effects
 				(font
@@ -4275,7 +4275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 252.73 143.51 0)
 			(effects
 				(font
@@ -4482,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 252.73 67.31 0)
 			(effects
 				(font
@@ -4714,7 +4714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:OD624L"
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 144.78 52.07 0)
 			(effects
 				(font
@@ -4781,7 +4781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 247.65 128.27 0)
 			(effects
 				(font
@@ -4984,7 +4984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 149.86 143.51 0)
 			(effects
 				(font
@@ -5218,7 +5218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:OD624L"
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -5554,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 247.65 52.07 0)
 			(effects
 				(font
@@ -5622,7 +5622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 252.73 133.35 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:OD624L"
+		(property "Footprint" "Footprint Library:OD624L"
 			(at 149.86 57.15 0)
 			(effects
 				(font
