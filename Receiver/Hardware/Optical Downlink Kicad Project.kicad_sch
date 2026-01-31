@@ -3774,6 +3774,16 @@
 		)
 		(uuid "2bd0f4f2-3317-46a1-84af-8aa3b72c559d")
 	)
+	(text "Sort out what is going on with Vdd"
+		(exclude_from_sim no)
+		(at 43.688 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "547b7a2d-6854-465b-b254-2ef574ad4670")
+	)
 	(text "Connected to Pins 40\nand 36 for Pi Pico.\n"
 		(exclude_from_sim no)
 		(at 306.324 155.702 0)
@@ -3783,6 +3793,16 @@
 			)
 		)
 		(uuid "71bb6723-db63-4c6b-b107-4f3388d7a3b2")
+	)
+	(text "HT7580-2"
+		(exclude_from_sim no)
+		(at 304.8 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f6b4f43-7cbc-4930-8ab7-e46d0aa1e367")
 	)
 	(text "This is the symbol for the MEV3S0515SC but it has the exact same layput as MEV3S0509SC.\nThe MEVS0509SC is the component this design will actually use.\n"
 		(exclude_from_sim no)
@@ -3957,6 +3977,12 @@
 		(uuid "6372307c-24d3-46c7-8aa9-19bf70e58471")
 	)
 	(junction
+		(at 290.83 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a2ba427-7b94-4ad3-b12f-44d477af383d")
+	)
+	(junction
 		(at 248.92 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3973,6 +3999,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93ad7160-cc04-42fd-b168-b15b4df66379")
+	)
+	(junction
+		(at 274.32 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95842c0c-d670-4bfb-a15d-85fb4737f4dd")
+	)
+	(junction
+		(at 245.11 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c173318-d426-405d-8e71-23a5aa676b56")
 	)
 	(junction
 		(at 80.01 200.66)
@@ -4418,6 +4456,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 40.64) (xy 283.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626cd20d-e779-43b7-b02f-59736e205f8c")
+	)
+	(wire
+		(pts
 			(xy 274.32 104.14) (xy 274.32 105.41)
 		)
 		(stroke
@@ -4455,6 +4503,16 @@
 			(type default)
 		)
 		(uuid "688b7a29-9964-45d5-93e2-4080b334ce6e")
+	)
+	(wire
+		(pts
+			(xy 234.95 38.1) (xy 245.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f05067-278a-43af-93f2-910fe0834393")
 	)
 	(wire
 		(pts
@@ -4755,6 +4813,16 @@
 			(type default)
 		)
 		(uuid "a6301c79-bf07-4de0-a3e0-b6d5eb969c4b")
+	)
+	(wire
+		(pts
+			(xy 290.83 96.52) (xy 300.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80a6f3a-8316-4eca-abab-9f01dfe4ab4c")
 	)
 	(wire
 		(pts
@@ -5112,6 +5180,50 @@
 			)
 		)
 	)
+	(global_label "Intermeditate Power"
+		(shape input)
+		(at 300.99 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2421b0b8-4b59-4808-ab42-87146e02c7df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 323.1461 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Op Amp Voltage Source"
+		(shape input)
+		(at 283.21 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29755dd7-b95b-4186-b464-3c909456853f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.9944 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Signal"
 		(shape output)
 		(at 147.32 34.29 0)
@@ -5130,6 +5242,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Intermeditate Power"
+		(shape input)
+		(at 234.95 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c0b7a33-3e40-4c1e-900f-b0fe61955768")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.7939 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
