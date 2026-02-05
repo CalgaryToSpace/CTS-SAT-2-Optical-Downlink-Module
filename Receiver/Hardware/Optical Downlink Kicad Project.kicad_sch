@@ -3638,131 +3638,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Connected to Pins 1, 2, 3, \nand 4 for Pi Pico\n"
 		(exclude_from_sim no)
@@ -3823,6 +3698,16 @@
 			)
 		)
 		(uuid "a95503b5-3093-44a5-911d-722a3a1cba3b")
+	)
+	(text "Continue working on c2, c3, c4"
+		(exclude_from_sim no)
+		(at 126.492 265.176 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "f7d380e3-5fcc-4d6e-854f-56d9afd90560")
 	)
 	(text_box "LDO To Denoise Boost Converter Output"
 		(exclude_from_sim no)
@@ -3926,8 +3811,8 @@
 	)
 	(text_box "ADC"
 		(exclude_from_sim no)
-		(at 58.42 194.31 0)
-		(size 132.08 64.77)
+		(at 58.42 187.96 0)
+		(size 132.08 71.12)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3961,6 +3846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20acc6d7-75a3-40bd-8a24-3b74a2d1ec93")
+	)
+	(junction
+		(at 96.52 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21889c70-2e4c-4b2d-b9f8-352fd7970aeb")
 	)
 	(junction
 		(at 93.98 219.71)
@@ -4015,6 +3906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95842c0c-d670-4bfb-a15d-85fb4737f4dd")
+	)
+	(junction
+		(at 149.86 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e62a103-32a9-4ff8-9f86-149cc21af2a4")
 	)
 	(junction
 		(at 74.93 229.87)
@@ -4096,6 +3993,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 199.39) (xy 96.52 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09aad04c-0310-4dbc-8a4f-8e62acdff99a")
+	)
+	(wire
+		(pts
 			(xy 294.64 172.72) (xy 300.99 172.72)
 		)
 		(stroke
@@ -4143,6 +4050,16 @@
 			(type default)
 		)
 		(uuid "1430007c-b119-4bef-bba9-e82f45318fa9")
+	)
+	(wire
+		(pts
+			(xy 158.75 198.12) (xy 162.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154fd779-f957-45b2-8586-e9c93e33cf0f")
 	)
 	(wire
 		(pts
@@ -4303,6 +4220,26 @@
 			(type default)
 		)
 		(uuid "44c3ebee-b8bb-4412-98ef-3b4d276051b6")
+	)
+	(wire
+		(pts
+			(xy 151.13 203.2) (xy 149.86 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4578c821-4b23-4957-ba17-09e3920f089a")
+	)
+	(wire
+		(pts
+			(xy 162.56 198.12) (xy 162.56 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481ea253-deca-4c3a-bf55-02f7d5182714")
 	)
 	(wire
 		(pts
@@ -4676,6 +4613,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 198.12) (xy 151.13 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858ca2a9-9c77-406e-92a0-7105e89d5edc")
+	)
+	(wire
+		(pts
 			(xy 236.22 99.06) (xy 234.95 99.06)
 		)
 		(stroke
@@ -4716,16 +4663,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 204.47) (xy 96.52 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9763ceb0-1219-409e-8183-3234a0363928")
-	)
-	(wire
-		(pts
 			(xy 63.5 217.17) (xy 99.06 217.17)
 		)
 		(stroke
@@ -4753,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "9ae6eb29-23eb-4761-bc2d-02f93de5c89a")
+	)
+	(wire
+		(pts
+			(xy 96.52 201.93) (xy 96.52 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c241839-a54c-4b84-9a0c-122668fa554b")
 	)
 	(wire
 		(pts
@@ -4906,6 +4853,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 203.2) (xy 149.86 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03f400a-e84c-4aeb-ad55-1337e4b35369")
+	)
+	(wire
+		(pts
 			(xy 139.7 97.79) (xy 151.13 97.79)
 		)
 		(stroke
@@ -4986,6 +4943,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 201.93) (xy 106.68 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf20dae-d857-4324-b2ad-eba0e442dc9a")
+	)
+	(wire
+		(pts
 			(xy 153.67 223.52) (xy 156.21 223.52)
 		)
 		(stroke
@@ -5026,7 +4993,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 204.47) (xy 92.71 204.47)
+			(xy 96.52 199.39) (xy 92.71 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5542,7 +5509,7 @@
 			)
 		)
 	)
-	(global_label "DVDD"
+	(global_label "3V3"
 		(shape input)
 		(at 154.94 208.28 0)
 		(fields_autoplaced yes)
@@ -5554,7 +5521,7 @@
 		)
 		(uuid "8ad9be17-7e47-4d08-bb48-5eb3683130b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8238 208.28 0)
+			(at 161.4328 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,9 +5641,31 @@
 			)
 		)
 	)
+	(global_label "Op Amp Voltage Source"
+		(shape input)
+		(at 78.74 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e265d831-4323-4811-b328-0c2cb072c4ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.5244 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
-		(at 92.71 204.47 180)
+		(at 92.71 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5686,7 +5675,7 @@
 		)
 		(uuid "eb022599-689c-4752-abef-57b3e007e658")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.2172 204.47 0)
+			(at 86.2172 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,6 +5898,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 100.33 201.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e8388b-ee59-4f29-b326-babe6496bb8f")
+		(property "Reference" "C7"
+			(at 100.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 100.33 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00-footprint-library:CAP_CL10_SAM"
+			(at 104.14 200.9648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3644/CL10B105KA8NNNC_spec.pdf"
+			(at 100.33 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7410056c-6e63-4527-bcb9-0aa92617cb01")
+		)
+		(pin "2"
+			(uuid "bf151c9b-880b-44b2-aab4-55629ac70920")
+		)
+		(instances
+			(project "Optical Downlink Kicad Project"
+				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d48f9b5-ecde-44ed-8908-1f44c0c27a0b")
+		(property "Reference" "#PWR09"
+			(at 162.56 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddcfaff9-7ae2-4d19-946e-9b5031fcae83")
+		)
+		(instances
+			(project "Optical Downlink Kicad Project"
+				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 234.95 0)
 		(unit 1)
@@ -6072,7 +6195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "00-footprint-library:CAPC1005X55N"
 			(at 152.0952 105.41 0)
 			(effects
 				(font
@@ -6081,7 +6204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05C101JB5NNNC_Spec.pdf"
 			(at 151.13 101.6 0)
 			(effects
 				(font
@@ -6609,7 +6732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C30737MH-500-90C"
+		(property "Datasheet" "https://www.excelitas.com/file-download/download/public/80121?filename=Excelitas_C30737MH_Series_Datasheet.pdf"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -6776,6 +6899,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 154.94 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c292da-bb0c-4e1a-b787-c340e37d5b76")
+		(property "Reference" "C8"
+			(at 154.94 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 154.94 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00-footprint-library:CAP_CL10_SAM"
+			(at 158.75 197.1548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3644/CL10B105KA8NNNC_spec.pdf"
+			(at 154.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "debb1c6e-f2c2-4625-8122-c7def2391d6f")
+		)
+		(pin "2"
+			(uuid "f824b2a2-039b-4d49-8957-f29ca6fe78fd")
+		)
+		(instances
+			(project "Optical Downlink Kicad Project"
+				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 46.99 0)
 		(unit 1)
@@ -6836,71 +7027,6 @@
 			(project ""
 				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 78.74 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92e909ae-c88a-43ee-9f20-80bab3d8abd5")
-		(property "Reference" "#PWR05"
-			(at 78.74 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 78.74 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 78.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7858cc78-7b91-43f5-9794-fa67b35abffd")
-		)
-		(instances
-			(project "Optical Downlink Kicad Project"
-				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7412,6 +7538,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c939d3-6ea6-48c7-bf61-733b296f1171")
+		(property "Reference" "#PWR05"
+			(at 106.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf96f273-baae-484c-bb41-b1976b6ddb5d")
+		)
+		(instances
+			(project "Optical Downlink Kicad Project"
+				(path "/14a90c5b-b96f-4141-aa3d-82a6df0a2b3e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 74.93 226.06 0)
 		(unit 1)
@@ -7515,7 +7707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 107.95 53.34 0)
 			(effects
 				(font
@@ -7730,7 +7922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TLE2426-EP_D_8"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tle2426.pdf?ts=1770316456619&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLE2426%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-amps-null-44700045336317116_prodfolderdynamic-cpc-pf-google-ww_en_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC+SEARCH+ADS%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D6465287935%2526gbraid%253D0AAAAAC068F23-iCzD67nAsz3YLuWpuvxn%2526gclid%253DCj0KCQiAnJHMBhDAARIsABr7b85h10I6EwIfzYnf3neIYwRcxhgcUg80GLbkkjlQ0HxPIpCeqVqFJUoaAtMjEALw_wcB"
 			(at 61.976 80.264 0)
 			(effects
 				(font
