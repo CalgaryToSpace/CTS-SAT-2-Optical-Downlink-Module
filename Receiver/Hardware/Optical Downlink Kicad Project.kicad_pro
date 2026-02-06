@@ -497,7 +497,8 @@
     "net_colors": {
       "GND": "rgb(28, 60, 255)",
       "Intermeditate Power": "rgb(81, 255, 62)",
-      "Op Amp Voltage Source": "rgb(255, 235, 15)"
+      "Op Amp Voltage Source": "rgb(255, 235, 15)",
+      "VBUS": "rgb(253, 16, 255)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
