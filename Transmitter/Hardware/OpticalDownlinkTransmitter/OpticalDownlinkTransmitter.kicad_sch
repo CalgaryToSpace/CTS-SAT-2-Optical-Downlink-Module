@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ae09d20d-f08c-4098-82fa-d727301e1aa0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,21 +83,53 @@
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -119,7 +153,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -129,48 +163,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -246,9 +248,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -321,7 +326,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -333,7 +338,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -382,11 +387,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -484,10 +494,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -496,10 +506,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -545,11 +555,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -616,32 +631,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -653,8 +644,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -702,11 +717,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -774,10 +794,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -798,7 +830,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -810,22 +842,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -871,9 +891,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -992,6 +1015,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Driver_LED:AL8860MP"
 			(exclude_from_sim no)
@@ -1073,60 +1097,6 @@
 			)
 			(symbol "AL8860MP_1_1"
 				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "CTRL"
@@ -1144,45 +1114,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -2.54 180)
-					(length 2.54) hide
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at -7.62 -2.54 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -1216,9 +1151,47 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -7.62 90)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1234,13 +1207,73 @@
 						)
 					)
 				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1331,12 +1364,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1408,7 +1446,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1420,7 +1458,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1451,7 +1489,159 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 22.86 96.52)
+		(end 63.5 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 760fa745-cc19-4c53-be7e-be56ab8259c1)
+	)
+	(rectangle
+		(start 22.86 50.8)
+		(end 63.5 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a0aa941e-dd47-4844-9c67-cc555c427dd8)
+	)
+	(text "MCU Connector"
+		(exclude_from_sim no)
+		(at 42.672 60.198 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "2afd6357-7f8d-457d-b2c4-eb7b97411a0a")
+	)
+	(text "Power Connection\n\n\n"
+		(exclude_from_sim no)
+		(at 43.434 106.426 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "752bbffc-e27b-49b5-9172-a7b531f69fab")
+	)
+	(text_box "1x04 pin headers, 2.54mm\n"
+		(exclude_from_sim no)
+		(at 22.86 41.91 0)
+		(size 20.32 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9829e6aa-1106-49ca-8270-30fea1b1e6d5")
+	)
+	(text_box "I_{f} of each LED = 350mA\n\nR = 0.1/i_{out_nom} (p.11)\n  = 0.1/0.35A \n  = 0.285 "
+		(exclude_from_sim no)
+		(at 158.75 49.53 0)
+		(size 26.67 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+			(href "https://www.diodes.com/assets/Datasheets/AL8860.pdf")
+		)
+		(uuid "d48ada1c-bd04-4643-a492-2807ecf709bc")
+	)
+	(text_box "Rec. fast Schottky diode with low capacitance and reverse leakage (p. 12)"
+		(exclude_from_sim no)
+		(at 132.08 27.94 0)
+		(size 27.94 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d755c7b3-d766-45d3-abbf-75bd46af0b18")
+	)
+	(text_box "L value between 33uH to 100uH, higher L for higher voltage (p. 13)"
+		(exclude_from_sim no)
+		(at 161.29 73.66 0)
+		(size 17.78 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "edca1cf6-1773-4200-8480-7c543d4dae06")
+	)
+	(text_box "C value between 4.7uF to 10uF, placed as close to IC as possible (p. 12)"
+		(exclude_from_sim no)
+		(at 85.09 58.42 0)
+		(size 20.32 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f140bfa8-e5e6-4b11-99e0-bcdf5436b05d")
 	)
 	(junction
 		(at 127 52.07)
@@ -2489,132 +2679,6 @@
 		)
 		(uuid "fe7de4e9-3c40-4ae9-82a8-f83a25e3e235")
 	)
-	(rectangle
-		(start 22.86 96.52)
-		(end 63.5 132.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 760fa745-cc19-4c53-be7e-be56ab8259c1)
-	)
-	(rectangle
-		(start 22.86 50.8)
-		(end 63.5 86.36)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a0aa941e-dd47-4844-9c67-cc555c427dd8)
-	)
-	(text_box "1x04 pin headers, 2.54mm\n"
-		(exclude_from_sim no)
-		(at 22.86 41.91 0)
-		(size 20.32 6.35)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "9829e6aa-1106-49ca-8270-30fea1b1e6d5")
-	)
-	(text_box "I_{f} of each LED = 350mA\n\nR = 0.1/i_{out_nom} = 0.1/0.35A = 0.285  (p.11)"
-		(exclude_from_sim no)
-		(at 135.89 26.67 0)
-		(size 50.8 8.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "d48ada1c-bd04-4643-a492-2807ecf709bc")
-	)
-	(text_box "L value between 33uH to 100uH, higher L for higher voltage"
-		(exclude_from_sim no)
-		(at 161.29 73.66 0)
-		(size 17.78 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "edca1cf6-1773-4200-8480-7c543d4dae06")
-	)
-	(text_box "C value between 4.7uF to 10uF, placed as close to IC as possible"
-		(exclude_from_sim no)
-		(at 85.09 59.69 0)
-		(size 20.32 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f140bfa8-e5e6-4b11-99e0-bcdf5436b05d")
-	)
-	(text "MCU Connector"
-		(exclude_from_sim no)
-		(at 42.672 60.198 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "2afd6357-7f8d-457d-b2c4-eb7b97411a0a")
-	)
-	(text "Power Connection\n\n\n"
-		(exclude_from_sim no)
-		(at 43.434 106.426 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "752bbffc-e27b-49b5-9172-a7b531f69fab")
-	)
 	(global_label "Ctrl 1"
 		(shape input)
 		(at 43.18 73.66 0)
@@ -3006,7 +3070,7 @@
 				)
 			)
 		)
-		(property "Value" "0.285"
+		(property "Value" "0.285Ω"
 			(at 236.22 125.476 90)
 			(effects
 				(font
@@ -3250,6 +3314,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 252.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "934b9e32-306e-4e7d-94fd-c71124160bc3")
 		)
@@ -3284,7 +3357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "50uH"
 			(at 254 78.7399 0)
 			(effects
 				(font
@@ -3427,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:P2_DO-201"
 			(at 243.84 120.65 0)
 			(effects
 				(font
@@ -3472,6 +3545,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C5357977"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcd59311-2c36-4d28-9ac7-36e6591a5e1a")
 		)
@@ -3506,7 +3588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "50uH"
 			(at 151.13 78.7399 0)
 			(effects
 				(font
@@ -3640,7 +3722,7 @@
 				)
 			)
 		)
-		(property "Value" "0.285"
+		(property "Value" "0.285Ω"
 			(at 133.35 49.276 90)
 			(effects
 				(font
@@ -3725,7 +3807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 39.37 116.84 0)
 			(effects
 				(font
@@ -3792,7 +3874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 115.57 64.7699 0)
 			(effects
 				(font
@@ -4040,6 +4122,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C500782"
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "695d8f91-8af0-4e98-bdf4-8ebff375993a")
 		)
@@ -4102,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:P2_DO-201"
 			(at 140.97 120.65 0)
 			(effects
 				(font
@@ -4139,6 +4230,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 140.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C5357977"
 			(at 140.97 120.65 0)
 			(effects
 				(font
@@ -4207,6 +4307,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C20010764"
 			(at 149.86 133.35 0)
 			(effects
 				(font
@@ -4348,6 +4457,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 252.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ae9f097-0b89-4e2e-bf20-dbbe2f6bfac1")
 		)
@@ -4382,7 +4500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "50uH"
 			(at 254 154.9399 0)
 			(effects
 				(font
@@ -4452,7 +4570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 218.44 140.9699 0)
 			(effects
 				(font
@@ -4555,6 +4673,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 252.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b06efc4a-ea9c-43c0-b960-6202571579a6")
 		)
@@ -4596,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 38.1 76.2 0)
 			(effects
 				(font
@@ -4691,6 +4818,15 @@
 			)
 		)
 		(property "Description" "40V 1.5A Constant Current Buck LED Driver IC, MSOP-8"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C500782"
 			(at 127 156.21 0)
 			(effects
 				(font
@@ -4863,6 +4999,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 247.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60532d50-46d5-4d12-886b-75cb0a4c018f")
 		)
@@ -4897,7 +5042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 115.57 140.9699 0)
 			(effects
 				(font
@@ -5066,6 +5211,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 149.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11bee5fc-1a8d-457f-abf6-141b83fba8b8")
 		)
@@ -5136,7 +5290,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Number" ""
+		(property "JLCPCB Part" "C500782"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -5198,7 +5352,7 @@
 				)
 			)
 		)
-		(property "Value" "0.285"
+		(property "Value" "0.285Ω"
 			(at 236.22 49.276 90)
 			(effects
 				(font
@@ -5309,6 +5463,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45b19b0a-c4e5-46bb-8d50-35ec3407ae6d")
 		)
@@ -5341,7 +5504,7 @@
 				)
 			)
 		)
-		(property "Value" "0.285"
+		(property "Value" "0.285Ω"
 			(at 133.35 125.476 90)
 			(effects
 				(font
@@ -5428,7 +5591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 218.44 64.7699 0)
 			(effects
 				(font
@@ -5663,6 +5826,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75ad14fd-8d89-45f1-9c5a-94145528156b")
 		)
@@ -5731,6 +5903,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C20010764"
+			(at 252.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6f8c383-043b-4e2c-ae7a-60c4850fac1f")
 		)
@@ -5772,7 +5953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:P2_DO-201"
 			(at 243.84 44.45 0)
 			(effects
 				(font
@@ -5809,6 +5990,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C5357977"
 			(at 243.84 44.45 0)
 			(effects
 				(font
@@ -5924,7 +6114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:P2_DO-201"
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -5969,6 +6159,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C5357977"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2e74f7e-3660-4694-a3f6-e33451be8a5a")
 		)
@@ -6003,7 +6202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "50uH"
 			(at 151.13 154.9399 0)
 			(effects
 				(font
@@ -6252,6 +6451,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part" "C500782"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "76b47a37-4959-4435-afd4-562d66aba595")
 		)
@@ -6293,4 +6501,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
