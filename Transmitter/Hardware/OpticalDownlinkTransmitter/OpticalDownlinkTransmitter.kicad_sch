@@ -1542,7 +1542,7 @@
 	)
 	(text_box "1x04 pin headers, 2.54mm\n"
 		(exclude_from_sim no)
-		(at 22.86 41.91 0)
+		(at 22.86 86.36 0)
 		(size 20.32 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3366,7 +3366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:DR125"
 			(at 252.73 77.47 0)
 			(effects
 				(font
@@ -3385,6 +3385,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 252.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C5120951"
 			(at 252.73 77.47 0)
 			(effects
 				(font
@@ -3597,7 +3606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:DR125"
 			(at 149.86 77.47 0)
 			(effects
 				(font
@@ -3616,6 +3625,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C5120951"
 			(at 149.86 77.47 0)
 			(effects
 				(font
@@ -3757,7 +3775,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLBPCB Part" "C20485079"
+		(property "JLCPCB Part" "C20485079"
 			(at 133.35 52.07 90)
 			(effects
 				(font
@@ -3883,7 +3901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 112.7252 67.31 0)
 			(effects
 				(font
@@ -3902,6 +3920,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -4509,7 +4536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:DR125"
 			(at 252.73 153.67 0)
 			(effects
 				(font
@@ -4528,6 +4555,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 252.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C5120951"
 			(at 252.73 153.67 0)
 			(effects
 				(font
@@ -4579,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.5952 143.51 0)
 			(effects
 				(font
@@ -4598,6 +4634,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 214.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
 			(at 214.63 139.7 0)
 			(effects
 				(font
@@ -5051,7 +5096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 112.7252 143.51 0)
 			(effects
 				(font
@@ -5070,6 +5115,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
 			(at 111.76 139.7 0)
 			(effects
 				(font
@@ -5600,7 +5654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.5952 67.31 0)
 			(effects
 				(font
@@ -5619,6 +5673,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6211,7 +6274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:DR125"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -6230,6 +6293,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 149.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C5120951"
 			(at 149.86 153.67 0)
 			(effects
 				(font
