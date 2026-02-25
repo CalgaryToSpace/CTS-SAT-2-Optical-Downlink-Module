@@ -1625,7 +1625,7 @@
 	)
 	(text_box "C value between 4.7uF to 10uF, placed as close to IC as possible (p. 12)"
 		(exclude_from_sim no)
-		(at 74.93 52.07 0)
+		(at 68.58 52.07 0)
 		(size 20.32 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1656,10 +1656,28 @@
 		(uuid "154d964f-65d7-4ca8-a9a6-a33eba192986")
 	)
 	(junction
+		(at 212.09 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21338426-1872-4061-be8d-11901b3bb914")
+	)
+	(junction
 		(at 229.87 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29b2f9c9-da89-44d5-8601-80eb5379820c")
+	)
+	(junction
+		(at 212.09 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ebd0e52-0909-48a2-8a20-f52f2d9cc0e0")
+	)
+	(junction
+		(at 107.95 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43669ae5-aa1b-46cf-baab-a255f2901736")
 	)
 	(junction
 		(at 149.86 147.32)
@@ -1739,6 +1757,22 @@
 		(color 0 0 0 0)
 		(uuid "ce89b82c-045f-4da0-b13e-17b3ec2423c2")
 	)
+	(junction
+		(at 107.95 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e279b81e-3963-4e71-ad83-6bf25808c55b")
+	)
+	(wire
+		(pts
+			(xy 212.09 142.24) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004557a8-e9bb-4b5c-b0be-51acdf4d201d")
+	)
 	(wire
 		(pts
 			(xy 127 109.22) (xy 127 116.84)
@@ -1761,13 +1795,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 60.96) (xy 204.47 83.82)
+			(xy 196.85 60.96) (xy 196.85 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "031ef39f-f5c0-49c1-a6f3-1951f87b137e")
+	)
+	(wire
+		(pts
+			(xy 212.09 142.24) (xy 219.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a10cf19-9f8f-489d-8f4b-1b91334c5c99")
 	)
 	(wire
 		(pts
@@ -1791,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 124.46) (xy 100.33 109.22)
+			(xy 93.98 124.46) (xy 93.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 53.34) (xy 204.47 38.1)
+			(xy 196.85 53.34) (xy 196.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 38.1) (xy 229.87 38.1)
+			(xy 196.85 38.1) (xy 229.87 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1848,6 +1892,16 @@
 			(type default)
 		)
 		(uuid "183e791d-3310-4bb1-95ec-54f12d5687ea")
+	)
+	(wire
+		(pts
+			(xy 212.09 152.4) (xy 212.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a407345-64bb-45c9-99c7-4e5671568625")
 	)
 	(wire
 		(pts
@@ -1961,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 132.08) (xy 100.33 154.94)
+			(xy 93.98 132.08) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1981,6 +2035,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 142.24) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1f24c1-d778-47f0-b9a6-c376e29913f9")
+	)
+	(wire
+		(pts
+			(xy 107.95 142.24) (xy 116.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a56aeef-1925-49d4-97a9-b6e7b82667ef")
+	)
+	(wire
+		(pts
 			(xy 240.03 45.72) (xy 242.57 45.72)
 		)
 		(stroke
@@ -1991,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 109.22) (xy 127 109.22)
+			(xy 93.98 109.22) (xy 127 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 132.08) (xy 204.47 154.94)
+			(xy 196.85 132.08) (xy 196.85 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2071,6 +2145,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 71.12) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49130d11-e0e8-4cd5-8cc9-45af7d8e2578")
+	)
+	(wire
+		(pts
 			(xy 139.7 142.24) (xy 139.7 116.84)
 		)
 		(stroke
@@ -2101,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 71.12) (xy 116.84 71.12)
+			(xy 104.14 71.12) (xy 107.95 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2171,6 +2255,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 71.12) (xy 212.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee52e02-1910-4c87-aad9-ea240e8cbe46")
+	)
+	(wire
+		(pts
 			(xy 252.73 54.61) (xy 252.73 57.15)
 		)
 		(stroke
@@ -2201,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 142.24) (xy 116.84 142.24)
+			(xy 104.14 142.24) (xy 107.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2261,6 +2355,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 81.28) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7fe24f-0397-4765-b205-f7997a4b09e7")
+	)
+	(wire
+		(pts
+			(xy 107.95 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961e0c8d-8291-4a90-905c-0e8794777916")
+	)
+	(wire
+		(pts
 			(xy 139.7 116.84) (xy 140.97 116.84)
 		)
 		(stroke
@@ -2281,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 124.46) (xy 204.47 109.22)
+			(xy 196.85 124.46) (xy 196.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2291,13 +2405,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 38.1) (xy 127 38.1)
+			(xy 93.98 38.1) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ea0f4d4-e07b-4982-ac83-11d5730b3d8a")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa8db00-5836-4348-b9e2-66ba49172fc6")
 	)
 	(wire
 		(pts
@@ -2341,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 109.22) (xy 229.87 109.22)
+			(xy 196.85 109.22) (xy 229.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2391,6 +2515,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 152.4) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60cbe9e-4e93-4199-8881-0525d6a02870")
+	)
+	(wire
+		(pts
 			(xy 149.86 45.72) (xy 149.86 46.99)
 		)
 		(stroke
@@ -2401,7 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 142.24) (xy 219.71 142.24)
+			(xy 208.28 142.24) (xy 212.09 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2478,6 +2612,16 @@
 			(type default)
 		)
 		(uuid "cc6e67b5-fed9-49a3-bb63-9635eec0f803")
+	)
+	(wire
+		(pts
+			(xy 212.09 71.12) (xy 219.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1d4389-c26e-4467-b7a6-2e0ae0e37445")
 	)
 	(wire
 		(pts
@@ -2571,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 219.71 71.12)
+			(xy 207.01 71.12) (xy 212.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2581,7 +2725,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 53.34) (xy 100.33 38.1)
+			(xy 93.98 53.34) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2621,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 100.33 83.82)
+			(xy 93.98 60.96) (xy 93.98 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2913,7 @@
 	)
 	(global_label "Ctrl 3"
 		(shape input)
-		(at 215.9 71.12 180)
+		(at 207.01 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2779,7 +2923,7 @@
 		)
 		(uuid "73635781-a76b-4797-b100-2051a22af4ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2906 71.12 0)
+			(at 198.4006 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2935,7 @@
 	)
 	(global_label "Ctrl 4"
 		(shape input)
-		(at 215.9 142.24 180)
+		(at 208.28 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2801,7 +2945,7 @@
 		)
 		(uuid "937eefaa-8a8c-4ba4-91c1-f569382f45f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2906 142.24 0)
+			(at 199.6706 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3023,7 @@
 	)
 	(global_label "Ctrl 2"
 		(shape input)
-		(at 113.03 142.24 180)
+		(at 104.14 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2889,7 +3033,7 @@
 		)
 		(uuid "c15372c8-cf38-4bfe-916e-699d9df5c597")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4206 142.24 0)
+			(at 95.5306 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +3045,7 @@
 	)
 	(global_label "Ctrl 1"
 		(shape input)
-		(at 113.03 71.12 180)
+		(at 104.14 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2911,13 +3055,92 @@
 		)
 		(uuid "e9b6a09e-2d2f-42d7-8543-4c293a6111ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4206 71.12 0)
+			(at 95.5306 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "00d1fb96-e0ac-4849-9992-d0a99e0c046e")
+		(property "Reference" "C8"
+			(at 215.9 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 215.9 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 213.0552 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
+			(at 212.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d68b04c0-f8df-42f6-a54c-bb7131762d2c")
+		)
+		(pin "2"
+			(uuid "a6fdf135-3677-4523-b13d-58d631a7649e")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "C8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2989,7 +3212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 83.82 0)
+		(at 93.98 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2998,7 +3221,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a321be5-72a8-49d2-ab70-c2a8cbebddbe")
 		(property "Reference" "#PWR02"
-			(at 100.33 90.17 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 88.9 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 83.82 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 83.82 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 83.82 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,6 +3485,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1684d8b3-ab36-4acb-9492-d1979ac46a3d")
+		(property "Reference" "#PWR014"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81fe632e-30a5-4b20-82e2-597abfd5f75d")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 252.73 50.8 90)
 		(unit 1)
@@ -3357,7 +3646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50uH"
+		(property "Value" "47uH"
 			(at 254 72.3899 0)
 			(effects
 				(font
@@ -3597,7 +3886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50uH"
+		(property "Value" "47uH"
 			(at 151.13 72.3899 0)
 			(effects
 				(font
@@ -3875,7 +4164,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 57.15 0)
+		(at 93.98 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3884,7 +4173,7 @@
 		(fields_autoplaced yes)
 		(uuid "3deb4de5-199c-41c2-84c1-aad961372ad1")
 		(property "Reference" "C1"
-			(at 104.14 55.8799 0)
+			(at 97.79 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +4182,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 104.14 58.4199 0)
+			(at 97.79 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +4191,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 101.2952 60.96 0)
+			(at 94.9452 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +4200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 57.15 0)
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +4209,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 57.15 0)
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4218,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C95841"
-			(at 100.33 57.15 0)
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,6 +4236,85 @@
 			(project "OpticalDownlinkTransmitter"
 				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "510d6fec-e8f7-4b90-8334-4bd1215711de")
+		(property "Reference" "C7"
+			(at 215.9 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 215.9 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 213.0552 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f82683-f90d-43ab-8717-4264838f2168")
+		)
+		(pin "2"
+			(uuid "118662a4-5af0-4298-b61d-8d5f297d1b49")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4030,7 +4398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 83.82 0)
+		(at 196.85 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4039,7 +4407,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f1b716d-7637-4576-b664-ac25f315d826")
 		(property "Reference" "#PWR08"
-			(at 204.47 90.17 0)
+			(at 196.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 83.82 0)
+			(at 196.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 83.82 0)
+			(at 196.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 83.82 0)
+			(at 196.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,6 +4457,72 @@
 			(project "OpticalDownlinkTransmitter"
 				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64884107-2079-4317-a7cf-9db63b59ef9b")
+		(property "Reference" "#PWR015"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "454b57a2-04c6-4b18-939f-128074135733")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4195,6 +4629,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "694aeeb9-2576-4c35-a8c9-17b2a1eb8612")
+		(property "Reference" "#PWR017"
+			(at 212.09 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1d6b85b-2148-4afe-b26c-750d8543704c")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 140.97 109.22 0)
 		(unit 1)
@@ -4284,6 +4784,85 @@
 			(project "OpticalDownlinkTransmitter"
 				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6b65ac08-1937-435a-a516-37c6dae778e0")
+		(property "Reference" "C6"
+			(at 111.76 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 111.76 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 108.9152 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
+			(at 107.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8adb6fdc-7c11-45e8-a7d4-bc3496f47092")
+		)
+		(pin "2"
+			(uuid "d7139d4b-5b12-41c5-8609-87d071012c12")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4527,7 +5106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50uH"
+		(property "Value" "47uH"
 			(at 254 143.5099 0)
 			(effects
 				(font
@@ -4589,7 +5168,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 128.27 0)
+		(at 196.85 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4598,7 +5177,7 @@
 		(fields_autoplaced yes)
 		(uuid "862457c4-d613-4afc-bc8f-77a97bfdc3e6")
 		(property "Reference" "C4"
-			(at 208.28 126.9999 0)
+			(at 200.66 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +5186,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 208.28 129.5399 0)
+			(at 200.66 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +5195,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 205.4352 132.08 0)
+			(at 197.8152 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +5204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 128.27 0)
+			(at 196.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +5213,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 128.27 0)
+			(at 196.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +5222,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C95841"
-			(at 204.47 128.27 0)
+			(at 196.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,6 +5240,85 @@
 			(project "OpticalDownlinkTransmitter"
 				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "884a6479-f69b-478f-89e3-96efb56121a1")
+		(property "Reference" "C5"
+			(at 111.76 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 111.76 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 108.9152 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C95841"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5376e713-b7b9-4124-b38b-73e0ff43fe77")
+		)
+		(pin "2"
+			(uuid "d5252440-f778-425b-9555-bc9d655ce148")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5070,7 +5728,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 128.27 0)
+		(at 93.98 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5079,7 +5737,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad06713c-2346-4086-9b40-a43c9c451f6d")
 		(property "Reference" "C2"
-			(at 104.14 126.9999 0)
+			(at 97.79 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5746,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 104.14 129.5399 0)
+			(at 97.79 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5755,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 101.2952 132.08 0)
+			(at 94.9452 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 128.27 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5773,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 128.27 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5782,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C95841"
-			(at 100.33 128.27 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,7 +6286,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 57.15 0)
+		(at 196.85 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5637,7 +6295,7 @@
 		(fields_autoplaced yes)
 		(uuid "c646dd57-9b2d-41eb-9db3-8836352bfc01")
 		(property "Reference" "C3"
-			(at 208.28 55.8799 0)
+			(at 200.66 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +6304,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 208.28 58.4199 0)
+			(at 200.66 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,7 +6313,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 205.4352 60.96 0)
+			(at 197.8152 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +6322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 57.15 0)
+			(at 196.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +6331,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 57.15 0)
+			(at 196.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +6340,7 @@
 			)
 		)
 		(property "JLCPCB Part" "C95841"
-			(at 204.47 57.15 0)
+			(at 196.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +6365,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 154.94 0)
+		(at 196.85 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5716,7 +6374,7 @@
 		(fields_autoplaced yes)
 		(uuid "c912b0be-c49d-4936-a764-ca06d73467a2")
 		(property "Reference" "#PWR09"
-			(at 204.47 161.29 0)
+			(at 196.85 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +6383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 160.02 0)
+			(at 196.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 154.94 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +6400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 154.94 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +6409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 154.94 0)
+			(at 196.85 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,6 +6649,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d97d5a11-d696-4d1a-9796-00adb64f7732")
+		(property "Reference" "#PWR016"
+			(at 212.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaa665c8-3388-42f9-ba33-676b33bd274d")
+		)
+		(instances
+			(project "OpticalDownlinkTransmitter"
+				(path "/ae09d20d-f08c-4098-82fa-d727301e1aa0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 243.84 38.1 0)
 		(unit 1)
@@ -6087,7 +6811,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 154.94 0)
+		(at 93.98 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6096,7 +6820,7 @@
 		(fields_autoplaced yes)
 		(uuid "de0fbd7c-7b1a-48f7-9104-6cb29bf25abc")
 		(property "Reference" "#PWR03"
-			(at 100.33 161.29 0)
+			(at 93.98 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 160.02 0)
+			(at 93.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 154.94 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 154.94 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 154.94 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50uH"
+		(property "Value" "47uH"
 			(at 151.13 143.5099 0)
 			(effects
 				(font
