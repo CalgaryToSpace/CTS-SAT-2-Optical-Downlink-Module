@@ -1782,7 +1782,7 @@
 	)
 	(text_box "I_{f} of each LED = 350mA\n\nR = 0.1/i_{out_nom} (p.11)\n  = 0.1/0.35A \n  = 0.285 "
 		(exclude_from_sim no)
-		(at 175.26 41.91 0)
+		(at 175.26 45.72 0)
 		(size 26.67 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1805,7 +1805,7 @@
 	)
 	(text_box "Rec. fast Schottky diode with low capacitance and reverse leakage (p. 12)"
 		(exclude_from_sim no)
-		(at 148.59 20.32 0)
+		(at 175.26 34.29 0)
 		(size 27.94 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1825,7 +1825,7 @@
 	)
 	(text_box "L value between 33uH to 100uH, higher L for higher voltage (p. 13)"
 		(exclude_from_sim no)
-		(at 177.8 66.04 0)
+		(at 175.26 62.23 0)
 		(size 17.78 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1845,7 +1845,7 @@
 	)
 	(text_box "C value between 4.7uF to 10uF, placed as close to IC as possible (p. 12)"
 		(exclude_from_sim no)
-		(at 85.09 50.8 0)
+		(at 85.09 36.83 0)
 		(size 20.32 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3131,7 +3131,7 @@
 	)
 	(global_label "Ctrl 2"
 		(shape input)
-		(at 41.91 81.28 180)
+		(at 41.91 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3141,7 +3141,7 @@
 		)
 		(uuid "51bfb991-8a2e-46cc-aff0-7dd0a8dfd759")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3006 81.28 0)
+			(at 33.3006 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3153,7 @@
 	)
 	(global_label "Ctrl 1"
 		(shape input)
-		(at 41.91 78.74 180)
+		(at 41.91 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3163,7 +3163,7 @@
 		)
 		(uuid "59ea6763-974e-4eb0-b322-cd167fe21bf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3006 78.74 0)
+			(at 33.3006 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3241,7 @@
 	)
 	(global_label "Ctrl 3"
 		(shape input)
-		(at 41.91 83.82 180)
+		(at 41.91 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3251,7 +3251,7 @@
 		)
 		(uuid "85f57d64-7c87-49ec-8f84-7565d6c397cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3006 83.82 0)
+			(at 33.3006 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3439,7 @@
 	)
 	(global_label "Ctrl 4"
 		(shape input)
-		(at 41.91 86.36 180)
+		(at 41.91 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3449,7 +3449,7 @@
 		)
 		(uuid "f7629c46-3986-4386-8f70-d143d531c2d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3006 86.36 0)
+			(at 33.3006 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:P2_DO-201"
+		(property "Footprint" "Footprint Library:DIOM7959X261N"
 			(at 260.35 107.95 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part" "C5357977"
+		(property "JLCPCB Part" "C236151"
 			(at 260.35 107.95 0)
 			(effects
 				(font
@@ -4289,7 +4289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:CONN_532610001-SD_04_MOL"
 			(at 46.99 81.28 0)
 			(effects
 				(font
@@ -5256,7 +5256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:P2_DO-201"
+		(property "Footprint" "Footprint Library:DIOM7959X261N"
 			(at 157.48 107.95 0)
 			(effects
 				(font
@@ -5301,7 +5301,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part" "C5357977"
+		(property "JLCPCB Part" "C236151"
 			(at 157.48 107.95 0)
 			(effects
 				(font
@@ -6435,7 +6435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprint Library:CONN_532610001-SD_04_MOL"
 			(at 45.72 149.86 0)
 			(effects
 				(font
@@ -6463,16 +6463,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "30ba844f-9ad4-4077-9fd6-4e2c23cb04cd")
+			(uuid "30ba844f-9ad4-4077-9fd6-4e2c23cb04ce")
 		)
 		(pin "1"
-			(uuid "097d64cf-bbdf-4e47-8376-10872354df3c")
+			(uuid "097d64cf-bbdf-4e47-8376-10872354df3d")
 		)
 		(pin "3"
-			(uuid "821bbbd6-b510-4133-9bd1-1c766bbc900d")
+			(uuid "821bbbd6-b510-4133-9bd1-1c766bbc900e")
 		)
 		(pin "4"
-			(uuid "c8119f6a-1b97-4284-90fd-24eb99b353c1")
+			(uuid "c8119f6a-1b97-4284-90fd-24eb99b353c2")
 		)
 		(instances
 			(project ""
@@ -7352,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:P2_DO-201"
+		(property "Footprint" "Footprint Library:DIOM7959X261N"
 			(at 260.35 36.83 0)
 			(effects
 				(font
@@ -7397,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part" "C5357977"
+		(property "JLCPCB Part" "C236151"
 			(at 260.35 36.83 0)
 			(effects
 				(font
@@ -7513,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint Library:P2_DO-201"
+		(property "Footprint" "Footprint Library:DIOM7959X261N"
 			(at 157.48 36.83 0)
 			(effects
 				(font
@@ -7558,7 +7558,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part" "C5357977"
+		(property "JLCPCB Part" "C236151"
 			(at 157.48 36.83 0)
 			(effects
 				(font
