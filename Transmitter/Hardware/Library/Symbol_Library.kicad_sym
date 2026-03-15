@@ -136,7 +136,7 @@
 			(pin passive line
 				(at 3.81 0 180)
 				(length 1.27)
-				(name "K"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -277,7 +277,7 @@
 		)
 		(symbol "OD-624L_1_1"
 			(rectangle
-				(start 5.08 2.54)
+				(start 21.59 2.54)
 				(end 35.56 -5.08)
 				(stroke
 					(width 0.254)
@@ -288,9 +288,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 16.51 0 0)
 				(length 5.08)
-				(name "ANODE(P)"
+				(name "AN(P)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -308,7 +308,7 @@
 			(pin passive line
 				(at 40.64 0 180)
 				(length 5.08)
-				(name "CATHODE(N)"
+				(name "CAT(N)"
 					(effects
 						(font
 							(size 1.27 1.27)
