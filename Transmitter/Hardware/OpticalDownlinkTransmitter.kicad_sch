@@ -1740,10 +1740,10 @@
 		)
 		(uuid "752bbffc-e27b-49b5-9172-a7b531f69fab")
 	)
-	(text_box "R value chosen to accomadate for 0.074Ω resistance from the inductor\n\ni = 0.4A for R = 0.250Ω\ni = 3.086A for R = 0.20Ω + 0.074Ω = 0.324Ω"
+	(text_box "R value chosen to accomadate for 0.074Ω resistance from the inductor using same formula on p. 11\n\ni = 0.4A for R = 0.250Ω\ni = 0.3086A for R = 0.250Ω + 0.074Ω = 0.324Ω"
 		(exclude_from_sim no)
 		(at 85.09 21.59 0)
-		(size 49.53 11.43)
+		(size 54.61 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
